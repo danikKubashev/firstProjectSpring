@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg" style="background-color: rgba(18,38,52,0.97)">
+  <div class="container-fluid">
+  <a class="navbar-brand" th:href="@{'/'}">
+    <img src="/5190735803242899953-removebg-preview%20(1).png" alt="Bootstrap" width="35" height="30">
+  </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <li class="nav-item">
+    <a class="nav-link active text-warning" aria-current="page" th:href="@{'/'}">Главная</a>                </li>
+    <li class="nav-item">
+      <a class="nav-link text-warning" th:href="@{'/ipoteka'}">Ипотека</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-warning" th:href="@{'/spisok'}">Список Клиентов</a>                </li>
+  </ul>
+      <form class="d-flex" role="search">
+  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-warning" type="submit">Search</button>
+</form>
+    </div>
+</div>
+</nav>
